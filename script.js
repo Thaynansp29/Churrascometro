@@ -15,9 +15,13 @@ function calculate() {
   let tab = beerp(duration) * adults;
   let tad = drinksp(duration) * adults + (drinksp(duration) / 2) * child;
 
-  result.innerHTML = `<p>${tam / 1000} Kg de Carne</p>`;
-  result.innerHTML += `<p>${Math.ceil(tab / 350)} Latas de Cerveja</p>`;
-  result.innerHTML += `<p>${Math.ceil(tad / 2000)} Garras de Refrigerantes</p>`;
+  result.innerHTML = `<p>${tam / 1000} Kg de Carne &#127830</p>`;
+  result.innerHTML += `<p>${Math.ceil(
+    tab / 350
+  )} Latas de Cerveja &#127867</p>`;
+  result.innerHTML += `<p>${Math.ceil(
+    tad / 2000
+  )} Garras de Refrigerantes &#127863</p>`;
 }
 
 function meatp(duration) {

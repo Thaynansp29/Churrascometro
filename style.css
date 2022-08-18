@@ -1,10 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+
+    
+}
+/* .grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0;
+    grid-template-rows: auto 1fr;
+} */
 .container{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
-    margin: auto;
-    background-color: aliceblue;
+    margin-left: 77.9%;
     padding: 20px;
     border-radius: 10px;
+    padding-bottom: 10%;
+    background-color:RGBa(255, 225, 98,0.75);
+    /* background-image: url(./imagens/churrasco\ 1.jpg); */
 }
 
 input{
@@ -13,4 +29,26 @@ input{
     padding: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+#paragrafo{
+    font-family: 'Playfair Display', serif; 
+    padding-bottom: 7%;
+    text-align: center;
+}
+#calculate{
+    padding:7%;
+    margin-left: 33%;
+    border-radius: 12px;
+    background-color: rgba(72, 86, 8, 0.1);
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+#text-center{
+    font-family: 'Playfair Display', serif; 
+    background-color: red;
+    max-width: 50%;
+
 }

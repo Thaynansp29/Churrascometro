@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Churrascômentro</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="background">
+      <div class="grid">
+      <div><h1 id="text-center">Faça um churrasco da melhor forma possivel, se preparando antes de fazer as compras
+        com a nossa calculadora  </h1>
+      </div>
     <div class="container">
-      <h1>Churrascômentro</h1>
-      <input id="adults" name="adultos" type="number" placeholder="Adultos" />
-      <input id="child" name="crianca" type="number" placeholder="Crianças" />
-      <input id="duration" name="duracao" type="number" placeholder="Duração" />
-      <button onclick="calculate()">Calcular</button>
+      <h1 id="paragrafo">Churrascômentro</h1>
+      <input id="adults" name="adultos" type="number" placeholder="Adultos &#128104 &#128105" />
+      <input id="child" name="crianca" type="number" placeholder="Crianças &#128102 &#128103" />
+      <input id="duration" name="duracao" type="number" placeholder="Duração &#9203" />
+      <button id="calculate" onclick="calculate()">Calcular</button>
       <div id="result"></div>
     </div>
-
+  </div>
+</div>
     <script src="./script.js"></script>
   </body>
 </html>
